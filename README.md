@@ -18,11 +18,12 @@
 ### Dataset
 We validate the effectiveness of our model in the real world dataset [MIND](https://msnews.github.io/) and [Adressa](https://dl.acm.org/doi/pdf/10.1145/3106426.3109436)
 
-|Datasets|#news|#user|#categories|#impressions|#click
+|Datasets|#news|#user|#categories|#impressions|#click|
 |-|-|-|-|-|-|
-|MIND-large|161,013|1,000,000|20|15,777,377|24,155,470
-|Adressa|48486|3083438|24|-|27223576
-_
+|MIND-large|161,013|1,000,000|20|15,777,377|24,155,470|
+|Adressa|48486|3083438|24|-|27223576|
+
+
 ## Training
 
 process the download dataset MIND
@@ -44,7 +45,7 @@ He X, Peng Q, Liu H, et al. HPDM: A Hierarchical Popularity-aware Debiased Model
 
 ### bibtex
 ```
-@inproceedings{Wu2019naml,
+@inproceedings{He2025hpdm,
   author = {He, Xiangfu and Peng, Qiyao and Liu, hongtao and Shao, Minglai},
   booktitle = {Proceedings of the 34th International Joint Conference on Artificial Intelligence},
   pages = {1-9},
